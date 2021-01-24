@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - Assignment 3 - Q1</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<script>
+    var library = [
+        {
+        author: 'Bill Gates',
+        title: 'The Road Ahead',
+        readingStatus: true
+        },
+        {
+        author: 'Steve Jobs',
+        title: 'Walter Isaacson',
+        readingStatus: true
+        },
+        {
+        author: 'Suzanne Collins',
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        readingStatus: false
+        }
+                ];
+
+
+    for(i=0;i < library.length; i++){
+        if(library.readingStatus==true){
+
+            console.log("Already read %s by %s",library[i].author, library[i].title)
+    
+        } else{
+
+            console.log("You still need to read %s by %s.",library[i].title ,library[i].author)
+    
+        }
+    }
+    
+    
+        
+
+</script>
+
